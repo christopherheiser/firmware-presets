@@ -1,7 +1,7 @@
-#$ TITLE: OSD - Avatar - Tiny Whoops
+#$ TITLE: OSD
 #$ FIRMWARE_VERSION: 4.5
 #$ CATEGORY: OSD
-#$ STATUS: OFFICIAL
+#$ STATUS: COMMUNITY
 #$ KEYWORDS: RSE, hyperion, OSD
 #$ AUTHOR: hyperion
 

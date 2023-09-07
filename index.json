@@ -136,7 +136,8 @@
       "4.5"
     ],
     "category": [
-      "OSD"
+      "OSD",
+      "OTHER"
     ],
     "author": [
       "hyperion"
@@ -150,13 +151,13 @@
   "presets": [
     {
       "fullPath": "presets/4.5/base/rse_defaults.txt",
-      "hash": "da2a49bdce7d813d29da280fba236340a6cc367f4fbd0aa58cd80b66d7b1c1fa",
+      "hash": "1413a92091ea705c985a8140e7f28ab0380de54b150b2787bf5eab720fc1f0af",
       "title": "RSE Default Settings",
       "firmware_version": [
         "4.5"
       ],
-      "category": "OSD",
-      "status": "OFFICIAL",
+      "category": "OTHER",
+      "status": "COMMUNITY",
       "keywords": [
         "RSE",
         "hyperion"
@@ -166,13 +167,13 @@
     },
     {
       "fullPath": "presets/4.5/osd/osd_avatar_whoop.txt",
-      "hash": "5b97ef2bdc9f1fff542f5b1a0d0c8bc00f9f705a23e3eab84f58c9af6bc23b18",
-      "title": "OSD - Avatar - Tiny Whoops",
+      "hash": "fcf74922a420f1f366c78d0bf42a8874e6c86d12338ec6741ca26cf18e0a5dca",
+      "title": "OSD",
       "firmware_version": [
         "4.5"
       ],
       "category": "OSD",
-      "status": "OFFICIAL",
+      "status": "COMMUNITY",
       "keywords": [
         "RSE",
         "hyperion",

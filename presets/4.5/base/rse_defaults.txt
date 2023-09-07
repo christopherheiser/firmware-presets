@@ -1,7 +1,7 @@
 #$ TITLE: RSE Default Settings
 #$ FIRMWARE_VERSION: 4.5
-#$ CATEGORY: OSD
-#$ STATUS: OFFICIAL
+#$ CATEGORY: OTHER
+#$ STATUS: COMMUNITY
 #$ KEYWORDS: RSE, hyperion
 #$ AUTHOR: hyperion
 
