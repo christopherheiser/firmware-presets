@@ -1,0 +1,4 @@
+c:
+cd C:\Users\hyperion\Documents\GitHub\firmware-presets
+node indexer/check.js
+node indexer/indexer.js
