@@ -149,8 +149,24 @@
   },
   "presets": [
     {
+      "fullPath": "presets/4.5/base/rse_defaults.txt",
+      "hash": "da2a49bdce7d813d29da280fba236340a6cc367f4fbd0aa58cd80b66d7b1c1fa",
+      "title": "RSE Default Settings",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "OSD",
+      "status": "OFFICIAL",
+      "keywords": [
+        "RSE",
+        "hyperion"
+      ],
+      "author": "hyperion",
+      "priority": 0
+    },
+    {
       "fullPath": "presets/4.5/osd/osd_avatar_whoop.txt",
-      "hash": "d141dfed30fc18c5afe0f4dbaf19b97a4e6e027baead8ca6760b40dcb7664693",
+      "hash": "5b97ef2bdc9f1fff542f5b1a0d0c8bc00f9f705a23e3eab84f58c9af6bc23b18",
       "title": "OSD - Avatar - Tiny Whoops",
       "firmware_version": [
         "4.5"
