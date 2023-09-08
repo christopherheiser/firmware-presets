@@ -54,12 +54,11 @@ set yaw_motors_reversed = ON
 set vbat_max_cell_voltage = 440
 set vbat_min_cell_voltage = 320
 set ibata_scale = 470
+set report_cell_voltage = ON
 
 # sensors and I/O
 set small_angle = 180
 set acc_calibration = -63,35,-61,1
-set min_check = 1010
-set max_check = 1990
 
 # ELRS
 set expresslrs_uid = 131,196,152,144,107,134

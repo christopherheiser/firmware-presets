@@ -1,4 +1,4 @@
-#$ TITLE: RSE - TUNE - AOS 3.5
+#$ TITLE: RSE - TUNE - HappyModel Mobula 7 HD
 #$ FIRMWARE_VERSION: 4.5
 #$ CATEGORY: TUNE
 #$ STATUS: COMMUNITY
@@ -9,10 +9,10 @@
 
 #$ DESCRIPTION:
 #$ DESCRIPTION: <img src="https://user-images.githubusercontent.com/19867640/174759844-ffd85f42-1f1c-42bf-9032-d9f96d4d9619.svg" width="90px" style="display: block; float: left; margin-right: 10px; margin-top: 20px"/>
-#$ DESCRIPTION: <h1>AOS 3.5 settings for BF 4.5</h1>
+#$ DESCRIPTION: <h1>HappyModel Mobula 7 HD settings for BF 4.5</h1>
 #$ DESCRIPTION: <br>
 #$ DESCRIPTION:
-#$ DESCRIPTION: These are the craft-specific settings for the AOS 3.5 running Betaflight 4.5
+#$ DESCRIPTION: These are the craft-specific settings for the HappyModel Mobula 7 HD running Betaflight 4.5
 #$ DESCRIPTION:
 #$ DESCRIPTION: <br>
 #$ DESCRIPTION:
@@ -21,7 +21,7 @@
 
 
 ### Drone Specific
-set craft_name = AOS 3.5
+set craft_name = AOS T3
 set pilot_name = CH
 
 # resources
@@ -31,43 +31,35 @@ set pilot_name = CH
 # dma
 
 # feature
-feature GPS
 feature TELEMETRY
 feature OSD
 
 # serial
-serial 0 64 115200 57600 0 115200		# ELRS RX on UART1
-serial 1 131073 115200 57600 0 115200		# DJI O3 w/MSP on UART2
-serial 4 2 115200 115200 0 115200		# GPS
+serial 1 131073 115200 57600 0 115200		# Avatar OSD on UART2 w/MSP
+serial 3 64 115200 57600 0 115200		# RX on UART4
+
+# PID loop
 
 # motors
-set motor_poles = 12
-set motor_output_reordering = 2,0,3,1,4,5,6,7
-set yaw_motors_reversed = ON			# Props out
+set motor_poles = 12				# FPVCycle 13mm 6350kV
+yaw_motors_reversed = ON			# Props out!
+set dshot_idle_value = 550			# Static motor idle of 5.5% of max throttle
+set dyn_idle_min_rpm = 50			# Dynamic Idle of 5000RPM
 set dshot_bidir = ON
 set motor_pwm_protocol = DSHOT600
-set dshot_idle_value = 550			# Static motor idle of 5.5% of max throttle
-set dyn_idle_min_rpm = 43			# Dynamic Idle of 4300RPM
 
 # power system
-set bat_capacity = 650
 set vbat_max_cell_voltage = 440
 set vbat_min_cell_voltage = 320
-set vbat_warning_cell_voltage = 340
-set ibata_scale = 195
 set report_cell_voltage = ON
 
 # sensors and I/O
-set dyn_notch_count = 1
-set align_board_yaw = 215
-set acc_calibration = -37,0,76,1
 set small_angle = 180
-set pinio_box = 255,40,41,255
+set acc_calibration = -22,1,-9,1
+
+# ELRS
 
 # GPS
-set gps_sbas_mode = MSAS		# AUTO normally, MSAS in Japan
-set gps_auto_baud = ON
-set gps_ublox_use_galileo = ON
 
 # camera
 set fpv_mix_degrees = 30			# FPV camera angle
@@ -75,7 +67,7 @@ set fpv_mix_degrees = 30			# FPV camera angle
 # logging
 set blackbox_device = SPIFLASH		# Use onboard storage (SPIFLASH)
 set debug_mode = GYRO_SCALED
-set blackbox_mode = NORMAL		# 
+set blackbox_mode = NORMAL
 
 
 ### Base settings
@@ -83,52 +75,46 @@ set blackbox_mode = NORMAL		#
 
 
 ### RC Link
-# Use ExpressLRS 250Hz preset with HD Freestyle, serial RX, and singe cell voltage
+# Use ExpressLRS 250Hz preset with HD Freestyle, Serial RX, and singe cell voltage
 
 
 ### Tune
+# Use UAV Tech Toothpick
 
 # master
-# UAV Micro preset with Master Multiplier set at 1.0 and ELRS 250Hz
-set gyro_lpf1_static_hz = 0
-set gyro_lpf2_static_hz = 0
-set dyn_notch_count = 2
-set dyn_notch_min_hz = 150
-set dyn_notch_max_hz = 850
-set gyro_lpf1_dyn_min_hz = 0
-set gyro_lpf1_dyn_max_hz = 0
-set acc_lpf_hz = 10
 set rc_smoothing_auto_factor = 140
 set rc_smoothing_setpoint_cutoff = 25
 set rc_smoothing_feedforward_cutoff = 25
-set simplified_gyro_filter = OFF
-set rpm_filter_harmonics = 2
 
 
 ### Profiles
+# Use UAV Tech Toothpick
 
 profile 0
 
 # profile 0
-# UAV Micro preset with Master Multiplier set at 1.0 and ELRS 250Hz
 set dterm_lpf1_dyn_min_hz = 90
 set dterm_lpf1_dyn_max_hz = 180
-set dterm_lpf1_static_hz = 90
 set dterm_lpf2_static_hz = 180
-set pidsum_limit = 1000
-set pidsum_limit_yaw = 1000
-set yaw_lowpass_hz = 0
-set d_pitch = 30
-set d_roll = 27
-set d_min_roll = 27
-set d_min_pitch = 30
-set thrust_linear = 20
-set feedforward_averaging = 2_POINT
-set feedforward_smooth_factor = 45
-set feedforward_jitter_factor = 10
-set dyn_idle_min_rpm = 35
-set simplified_d_gain = 90
-set simplified_dmax_gain = 0
+set iterm_relax = RPY
+set p_pitch = 51
+set i_pitch = 92
+set d_pitch = 52
+set f_pitch = 95
+set p_roll = 49
+set i_roll = 88
+set d_roll = 46
+set f_roll = 90
+set p_yaw = 49
+set i_yaw = 88
+set f_yaw = 90
+set d_min_roll = 34
+set d_min_pitch = 39
+set feedforward_transition = 21
+set simplified_pids_mode = OFF
+set simplified_d_gain = 115
+set simplified_pi_gain = 110
+set simplified_dterm_filter = OFF
 set simplified_dterm_filter_multiplier = 120
 
 # restore original profile selection
@@ -137,9 +123,8 @@ profile 0
 
 ### OSD
 #$ INCLUDE: presets/4.5/other/osd_base.txt
-#$ INCLUDE: presets/4.5/other/o3.txt
+#$ INCLUDE: presets/4.5/other/avatar.txt
 
 
 ### Rateprofiles
 #$ INCLUDE: presets/4.5/other/rateprofiles.txt
-

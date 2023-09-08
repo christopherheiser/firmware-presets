@@ -87,9 +87,9 @@ set blackbox_mode = NORMAL		#
 
 
 ### Tune
+# UAV Micro preset with Master Multiplier set at 1.0
 
 # master
-# UAV Micro preset with Master Multiplier set at 1.0 and ELRS 250Hz
 set gyro_lpf1_static_hz = 0
 set gyro_lpf2_static_hz = 0
 set dyn_notch_count = 2
@@ -106,11 +106,11 @@ set rpm_filter_harmonics = 2
 
 
 ### Profiles
+# UAV Micro preset with Master Multiplier set at 1.0
 
 profile 0
 
 # profile 0
-# UAV Micro preset with Master Multiplier set at 1.0 and ELRS 250Hz
 set dterm_lpf1_dyn_min_hz = 90
 set dterm_lpf1_dyn_max_hz = 180
 set dterm_lpf1_static_hz = 90
