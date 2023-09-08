@@ -152,8 +152,8 @@
   "presets": [
     {
       "fullPath": "presets/4.5/osd/osd.txt",
-      "hash": "c08c0885ada4f239947e2c471b4bc337aaa34dfc153fb1c300879025ff73a100",
-      "title": "RSE - OSD",
+      "hash": "a75795c6717b6556663da06c9af13b2e6e2d56bbb9fd6bb1ffe2911a4b1bc068",
+      "title": "RSE - OSD - Master Config",
       "firmware_version": [
         "4.5"
       ],
@@ -169,8 +169,8 @@
     },
     {
       "fullPath": "presets/4.5/other/avatar.txt",
-      "hash": "89a9687316b50c20b38ae35480bc6c512c8f13e21b63f905dbdf45c59a476eb2",
-      "title": "RSE - Avatar OSD",
+      "hash": "0c0519f0be8f6cacaf83b617d069259509bc6b09c945a1e281dbeca6932576bf",
+      "title": "RSE - Z - OSD - Avatar",
       "firmware_version": [
         "4.5"
       ],
@@ -186,8 +186,8 @@
     },
     {
       "fullPath": "presets/4.5/other/dji_wtf.txt",
-      "hash": "e133e2edc2ff4de1cabc70f91eca4a6f74f331a9f91166f67bba6aef1aa0634e",
-      "title": "RSE - DJI with WTF OSD",
+      "hash": "7b8b1a7547150e1a4aea4e7159e61e4fcdad770e042faa95dbb757e49ba07c4c",
+      "title": "RSE - Z - OSD - DJI with WTF",
       "firmware_version": [
         "4.5"
       ],
@@ -220,7 +220,7 @@
     },
     {
       "fullPath": "presets/4.5/other/osd_base.txt",
-      "hash": "f4af88d51a712483def3edb44fdd7b2e0495987878bc7b37125bf5bb6cefbbb5",
+      "hash": "6f20fdb9f19c6c44f7ddc5ad4ab6267eaef3b2aa4e7160f265d9cf72e95fd601",
       "title": "RSE - OSD Base",
       "firmware_version": [
         "4.5"
@@ -236,9 +236,25 @@
       "priority": 0
     },
     {
+      "fullPath": "presets/4.5/other/rateprofiles.txt",
+      "hash": "13dd75ae7cdec4aa3c84cfdca8a21dc600ad1b3aaa1682ddbc43b43c18dff4a5",
+      "title": "RSE - Rateprofiles",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "OTHER",
+      "status": "COMMUNITY",
+      "keywords": [
+        "RSE",
+        "hyperion"
+      ],
+      "author": "hyperion",
+      "priority": 0
+    },
+    {
       "fullPath": "presets/4.5/other/rse_base.txt",
-      "hash": "1f979f5e813c3d1e64a4477b8d2616f9cbeafa5c5d6fd1101a55ef9273306f33",
-      "title": "RSE - Base Settings",
+      "hash": "43ba8c29bbe448bdd7963510c7c54d32cc588bc6f184641b19e6bf6901fdb722",
+      "title": "RSE - OTHER - Base Settings",
       "firmware_version": [
         "4.5"
       ],
@@ -253,8 +269,8 @@
     },
     {
       "fullPath": "presets/4.5/tune/RSE - AOS 3.5.txt",
-      "hash": "78393f59ec76f11179b54ffda8ce2cb2660db589805c7b0e1705110dcb802f65",
-      "title": "RSE - AOS 3.5",
+      "hash": "4aab64433f6fa5670266bb4d281c933247f01d67974497b3de60ac14a2341e0c",
+      "title": "RSE - TUNE - AOS 3.5",
       "firmware_version": [
         "4.5"
       ],
@@ -262,8 +278,7 @@
       "status": "COMMUNITY",
       "keywords": [
         "RSE",
-        "hyperion",
-        "OSD"
+        "hyperion"
       ],
       "author": "hyperion",
       "priority": 1000000000000

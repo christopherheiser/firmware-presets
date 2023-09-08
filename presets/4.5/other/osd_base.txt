@@ -22,6 +22,7 @@
 # -- OSD Setup --
 set osd_displayport_device = MSP
 set vcd_video_system = HD
+set osd_units = METRIC
 
 # -- Base OSD Settings --
 set osd_rssi_dbm_pos = 3088
