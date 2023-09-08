@@ -31,7 +31,7 @@ set osd_rssi_dbm_pos = 3088
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): O3
-# -- O3 OSD Settings --
+#$ INCLUDE: presets/4.5/other/o3.txt
 set osd_rssi_pos = 3122
 set osd_link_quality_pos = 6168
 set osd_tim_2_pos = 7791
@@ -57,7 +57,7 @@ set osd_flip_arrow_pos = 6490
 set osd_core_temp_pos = 2656
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): DJI w/WTF.FPV
+#$ OPTION BEGIN (UNCHECKED): DJI with WTF.FPV
 # -- DJI Air Unit or Vista w/WTF.FPV --
 #$ OPTION END
 
