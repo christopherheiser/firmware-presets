@@ -169,7 +169,7 @@
     },
     {
       "fullPath": "presets/4.5/other/avatar.txt",
-      "hash": "77004ffb17d7ac9bf1e8e5d41cb65f95f68ce37f873443faee6545b7a42afcd8",
+      "hash": "28e9e666e41667a90e352c20116df1d6652c8609d3f8fa07c1096bbce3483a76",
       "title": "RSE - INC - OSD - Avatar",
       "firmware_version": [
         "4.5"
@@ -268,7 +268,55 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/4.5/tune/RSE - AOS 3.5.txt",
+      "fullPath": "presets/4.5/tune/RSE - AOS 3.5 V2.txt",
+      "hash": "a57b8d81872a66a8547f41ffaa7bba7c4fd362afd55a060f9eac0b8b9cca2950",
+      "title": "RSE - TUNE - AOS 3.5",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "RSE",
+        "hyperion"
+      ],
+      "author": "hyperion",
+      "priority": 1000000000000
+    },
+    {
+      "fullPath": "presets/4.5/tune/RSE - AOS T3.txt",
+      "hash": "a57b8d81872a66a8547f41ffaa7bba7c4fd362afd55a060f9eac0b8b9cca2950",
+      "title": "RSE - TUNE - AOS 3.5",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "RSE",
+        "hyperion"
+      ],
+      "author": "hyperion",
+      "priority": 1000000000000
+    },
+    {
+      "fullPath": "presets/4.5/tune/RSE - HappyModel Mobula 7 HD.txt",
+      "hash": "4a6c32b73b605f5058d2944f5063f0cf611d07497e2a2ad5a2cc8c0bbe51207b",
+      "title": "RSE - TUNE - HappyModel Mobula 7 HD",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "RSE",
+        "hyperion"
+      ],
+      "author": "hyperion",
+      "priority": 1000000000000
+    },
+    {
+      "fullPath": "presets/4.5/tune/RSE - iFlight Nazgul Evoque F5 V2.txt",
       "hash": "a57b8d81872a66a8547f41ffaa7bba7c4fd362afd55a060f9eac0b8b9cca2950",
       "title": "RSE - TUNE - AOS 3.5",
       "firmware_version": [
