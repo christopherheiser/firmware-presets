@@ -27,7 +27,7 @@ set vcd_video_system = HD
 set osd_rssi_dbm_pos = 3088
 
 #$ OPTION BEGIN (UNCHECKED): Avatar
-#$ INCLUDE: presets/4.5/osd/avatar.txt
+#$ INCLUDE: presets/4.5/other/avatar.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): O3

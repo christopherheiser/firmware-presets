@@ -150,7 +150,41 @@
   },
   "presets": [
     {
-      "fullPath": "presets/4.5/base/rse_defaults.txt",
+      "fullPath": "presets/4.5/osd/osd.txt",
+      "hash": "b1a530565a67e574adb4b449001179a37b57f4b98a8c73b5426ce4a1a5f4c9d6",
+      "title": "RSE - OSD",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "OSD",
+      "status": "COMMUNITY",
+      "keywords": [
+        "RSE",
+        "hyperion",
+        "OSD"
+      ],
+      "author": "hyperion",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.5/other/avatar.txt",
+      "hash": "89a9687316b50c20b38ae35480bc6c512c8f13e21b63f905dbdf45c59a476eb2",
+      "title": "RSE - Avatar OSD",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "OTHER",
+      "status": "COMMUNITY",
+      "keywords": [
+        "RSE",
+        "hyperion",
+        "OSD"
+      ],
+      "author": "hyperion",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.5/other/rse_defaults.txt",
       "hash": "f7a907e5a759a06262c629591b53ca2e90f48920b85a81a21a0252010c00eb67",
       "title": "RSE - Default Settings",
       "firmware_version": [
@@ -166,43 +200,9 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/4.5/craft/RSE - AOS 3.5.txt",
+      "fullPath": "presets/4.5/tune/RSE - AOS 3.5.txt",
       "hash": "f06a7235dc8d243e70d5715b5e7a1465f3c66698ad2fa5a85e8079804d9b2d93",
       "title": "RSE - AOS 3.5",
-      "firmware_version": [
-        "4.5"
-      ],
-      "category": "OSD",
-      "status": "COMMUNITY",
-      "keywords": [
-        "RSE",
-        "hyperion",
-        "OSD"
-      ],
-      "author": "hyperion",
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/4.5/osd/avatar.txt",
-      "hash": "2957912a05181b421a4a2558dc4b6c6922c598bdf8c1510ec49a3ae31251d8a5",
-      "title": "RSE - Avatar OSD",
-      "firmware_version": [
-        "4.5"
-      ],
-      "category": "OSD",
-      "status": "COMMUNITY",
-      "keywords": [
-        "RSE",
-        "hyperion",
-        "OSD"
-      ],
-      "author": "hyperion",
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/4.5/osd/osd.txt",
-      "hash": "0d99175eb27e109d1678f24bb1f5afb49610a33ed65e9e33799e59e7a5fa47d8",
-      "title": "RSE - OSD",
       "firmware_version": [
         "4.5"
       ],

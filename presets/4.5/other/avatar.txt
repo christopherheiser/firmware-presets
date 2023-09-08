@@ -1,6 +1,6 @@
 #$ TITLE: RSE - Avatar OSD
 #$ FIRMWARE_VERSION: 4.5
-#$ CATEGORY: OSD
+#$ CATEGORY: OTHER
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: RSE, hyperion, OSD
 #$ AUTHOR: hyperion
