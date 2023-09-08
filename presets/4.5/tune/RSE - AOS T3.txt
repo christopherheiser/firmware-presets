@@ -1,4 +1,4 @@
-#$ TITLE: RSE - TUNE - HappyModel Mobula 7 HD
+#$ TITLE: RSE - TUNE - AOS T3
 #$ FIRMWARE_VERSION: 4.5
 #$ CATEGORY: TUNE
 #$ STATUS: COMMUNITY
@@ -9,10 +9,10 @@
 
 #$ DESCRIPTION:
 #$ DESCRIPTION: <img src="https://user-images.githubusercontent.com/19867640/174759844-ffd85f42-1f1c-42bf-9032-d9f96d4d9619.svg" width="90px" style="display: block; float: left; margin-right: 10px; margin-top: 20px"/>
-#$ DESCRIPTION: <h1>HappyModel Mobula 7 HD settings for BF 4.5</h1>
+#$ DESCRIPTION: <h1>AOS T3 settings for BF 4.5</h1>
 #$ DESCRIPTION: <br>
 #$ DESCRIPTION:
-#$ DESCRIPTION: These are the craft-specific settings for the HappyModel Mobula 7 HD running Betaflight 4.5
+#$ DESCRIPTION: These are the craft-specific settings for the AOS T3 running Betaflight 4.5
 #$ DESCRIPTION:
 #$ DESCRIPTION: <br>
 #$ DESCRIPTION:
