@@ -138,7 +138,7 @@ profile 0
 
 ### OSD
 #$ INCLUDE: presets/4.5/other/osd_base.txt
-#$ INCLUDE: presets/4.5/other/avatar.txt
+#$ INCLUDE: presets/4.5/other/o3.txt
 
 
 ### Rateprofiles
