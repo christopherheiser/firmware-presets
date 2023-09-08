@@ -90,7 +90,7 @@ set blackbox_mode = NORMAL		#
 ### Tune
 
 # master
-# it is unlcear where these come from, might be UAV preset need to investigate
+# UAV Micro preset with Master Multiplier set at 1.0 and ELRS 250Hz
 set gyro_lpf1_static_hz = 0
 set gyro_lpf2_static_hz = 0
 set dyn_notch_count = 2
@@ -111,7 +111,7 @@ set rpm_filter_harmonics = 2
 profile 0
 
 # profile 0
-# UAV preset with Master Multiplier set at 1.0
+# UAV Micro preset with Master Multiplier set at 1.0 and ELRS 250Hz
 set dterm_lpf1_dyn_min_hz = 90
 set dterm_lpf1_dyn_max_hz = 180
 set dterm_lpf1_static_hz = 90
