@@ -167,7 +167,7 @@
     },
     {
       "fullPath": "presets/4.5/craft/RSE - AOS 3.5.txt",
-      "hash": "a25152d838583deec794240cf2fdb423502737421a1cbbd9f78f09e38d3f67e7",
+      "hash": "f06a7235dc8d243e70d5715b5e7a1465f3c66698ad2fa5a85e8079804d9b2d93",
       "title": "RSE - AOS 3.5",
       "firmware_version": [
         "4.5"
@@ -183,8 +183,25 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/4.5/osd/osd_avatar_whoop.txt",
-      "hash": "bbacee90330900400588dfb1e33cb36a6507d9e6c64713df853d2df0d69d4798",
+      "fullPath": "presets/4.5/osd/avatar.txt",
+      "hash": "2957912a05181b421a4a2558dc4b6c6922c598bdf8c1510ec49a3ae31251d8a5",
+      "title": "RSE - Avatar OSD",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "OSD",
+      "status": "COMMUNITY",
+      "keywords": [
+        "RSE",
+        "hyperion",
+        "OSD"
+      ],
+      "author": "hyperion",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.5/osd/osd.txt",
+      "hash": "0d99175eb27e109d1678f24bb1f5afb49610a33ed65e9e33799e59e7a5fa47d8",
       "title": "RSE - OSD",
       "firmware_version": [
         "4.5"
