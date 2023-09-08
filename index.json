@@ -151,8 +151,8 @@
   "presets": [
     {
       "fullPath": "presets/4.5/base/rse_defaults.txt",
-      "hash": "1413a92091ea705c985a8140e7f28ab0380de54b150b2787bf5eab720fc1f0af",
-      "title": "RSE Default Settings",
+      "hash": "f7a907e5a759a06262c629591b53ca2e90f48920b85a81a21a0252010c00eb67",
+      "title": "RSE - Default Settings",
       "firmware_version": [
         "4.5"
       ],
@@ -166,9 +166,26 @@
       "priority": 0
     },
     {
+      "fullPath": "presets/4.5/craft/RSE - AOS 3.5.txt",
+      "hash": "a25152d838583deec794240cf2fdb423502737421a1cbbd9f78f09e38d3f67e7",
+      "title": "RSE - AOS 3.5",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "OSD",
+      "status": "COMMUNITY",
+      "keywords": [
+        "RSE",
+        "hyperion",
+        "OSD"
+      ],
+      "author": "hyperion",
+      "priority": 0
+    },
+    {
       "fullPath": "presets/4.5/osd/osd_avatar_whoop.txt",
-      "hash": "fcf74922a420f1f366c78d0bf42a8874e6c86d12338ec6741ca26cf18e0a5dca",
-      "title": "OSD",
+      "hash": "bbacee90330900400588dfb1e33cb36a6507d9e6c64713df853d2df0d69d4798",
+      "title": "RSE - OSD",
       "firmware_version": [
         "4.5"
       ],

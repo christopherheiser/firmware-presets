@@ -1,4 +1,4 @@
-#$ TITLE: RSE Default Settings
+#$ TITLE: RSE - Default Settings
 #$ FIRMWARE_VERSION: 4.5
 #$ CATEGORY: OTHER
 #$ STATUS: COMMUNITY
