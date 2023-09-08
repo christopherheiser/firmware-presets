@@ -219,9 +219,9 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/4.5/other/rse_defaults.txt",
-      "hash": "f7a907e5a759a06262c629591b53ca2e90f48920b85a81a21a0252010c00eb67",
-      "title": "RSE - Default Settings",
+      "fullPath": "presets/4.5/other/rse_base.txt",
+      "hash": "4fdfca70568e93dfd56286a37d21d5a9105e09283162a16d8e05182597379787",
+      "title": "RSE - Base Settings",
       "firmware_version": [
         "4.5"
       ],
@@ -236,7 +236,7 @@
     },
     {
       "fullPath": "presets/4.5/tune/RSE - AOS 3.5.txt",
-      "hash": "62e282b138e84f3c0e23e30dae53da111cd0ddeac9623b2575a279dc401c01f2",
+      "hash": "78393f59ec76f11179b54ffda8ce2cb2660db589805c7b0e1705110dcb802f65",
       "title": "RSE - AOS 3.5",
       "firmware_version": [
         "4.5"

@@ -75,7 +75,11 @@ set blackbox_device = SPIFLASH		# Use onboard storage (SPIFLASH)
 set debug_mode = GYRO_SCALED
 set blackbox_mode = NORMAL		# 
 
+# Base settings
+#$ INCLUDE: presets/4.5/other/rse_base.txt
+
 # OSD
+#$ INCLUDE: presets/4.5/other/osd_base.txt
 #$ INCLUDE: presets/4.5/other/avatar.txt
 
 
