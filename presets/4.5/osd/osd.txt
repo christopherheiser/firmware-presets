@@ -30,7 +30,7 @@
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): DJI with WTF.FPV
-#$ INCLUDE: presets/4.5/other/o3.txt
+#$ INCLUDE: presets/4.5/other/dji_wtf.txt
 #$ OPTION END
 
 

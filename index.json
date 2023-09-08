@@ -152,7 +152,7 @@
   "presets": [
     {
       "fullPath": "presets/4.5/osd/osd.txt",
-      "hash": "a75795c6717b6556663da06c9af13b2e6e2d56bbb9fd6bb1ffe2911a4b1bc068",
+      "hash": "f4fb85b4ef7b04cd5ddd2bdc3f392aa4a8aff9ce694f8627e0fd819dd842cdd4",
       "title": "RSE - OSD - Master Config",
       "firmware_version": [
         "4.5"
