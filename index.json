@@ -152,7 +152,7 @@
   "presets": [
     {
       "fullPath": "presets/4.5/osd/osd.txt",
-      "hash": "9e16bf176f174f858aa900e07607b47de3b1f6a3d5d67e3def429d68a4bcd40f",
+      "hash": "c08c0885ada4f239947e2c471b4bc337aaa34dfc153fb1c300879025ff73a100",
       "title": "RSE - OSD",
       "firmware_version": [
         "4.5"
@@ -188,6 +188,23 @@
       "fullPath": "presets/4.5/other/o3.txt",
       "hash": "6c4e702c9769f0439ca1a09ec78d5bc8cc942e00e2d90bda6538f88a78b235e4",
       "title": "RSE - O3 OSD",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "OTHER",
+      "status": "COMMUNITY",
+      "keywords": [
+        "RSE",
+        "hyperion",
+        "OSD"
+      ],
+      "author": "hyperion",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.5/other/osd_base.txt",
+      "hash": "f4af88d51a712483def3edb44fdd7b2e0495987878bc7b37125bf5bb6cefbbb5",
+      "title": "RSE - OSD Base",
       "firmware_version": [
         "4.5"
       ],
