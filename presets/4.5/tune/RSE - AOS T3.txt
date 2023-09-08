@@ -42,7 +42,7 @@ serial 3 64 115200 57600 0 115200		# RX on UART4
 
 # motors
 set motor_poles = 12				# FPVCycle 13mm 6350kV
-yaw_motors_reversed = ON			# Props out!
+set yaw_motors_reversed = ON			# Props out!
 set dshot_idle_value = 550			# Static motor idle of 5.5% of max throttle
 set dyn_idle_min_rpm = 50			# Dynamic Idle of 5000RPM
 set dshot_bidir = ON
