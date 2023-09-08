@@ -137,7 +137,8 @@
     ],
     "category": [
       "OSD",
-      "OTHER"
+      "OTHER",
+      "TUNE"
     ],
     "author": [
       "hyperion"
@@ -201,12 +202,12 @@
     },
     {
       "fullPath": "presets/4.5/tune/RSE - AOS 3.5.txt",
-      "hash": "f06a7235dc8d243e70d5715b5e7a1465f3c66698ad2fa5a85e8079804d9b2d93",
+      "hash": "d72beeded94a1c7cc6cf338007b3784f5c5edba9ed6a9d3a09b83b8b5b68988f",
       "title": "RSE - AOS 3.5",
       "firmware_version": [
         "4.5"
       ],
-      "category": "OSD",
+      "category": "TUNE",
       "status": "COMMUNITY",
       "keywords": [
         "RSE",
@@ -214,7 +215,7 @@
         "OSD"
       ],
       "author": "hyperion",
-      "priority": 0
+      "priority": 1000000000000
     }
   ]
 }
