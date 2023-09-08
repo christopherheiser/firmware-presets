@@ -40,7 +40,7 @@ feature OSD
 serial 1 131073 115200 57600 0 115200		# Avatar VTX
 
 # PID loop
-set pid_process_denom = 4
+set pid_process_denom = 4			# Slower clock for older F411 ECU
 
 # motors
 set dshot_burst = OFF

@@ -186,7 +186,7 @@
     },
     {
       "fullPath": "presets/4.5/other/dji_wtf.txt",
-      "hash": "3faf3064dae8c85d402e88b0f35c4f063dc433911083671043859f377a427ab8",
+      "hash": "46d5602d3f7eba298fa8e95e69da7f261d35b7b2ecb5158564055a8a82b4d727",
       "title": "RSE - INC - OSD - DJI with WTF",
       "firmware_version": [
         "4.5"
@@ -301,7 +301,7 @@
     },
     {
       "fullPath": "presets/4.5/tune/RSE - HappyModel Mobula 7 HD.txt",
-      "hash": "4a6c32b73b605f5058d2944f5063f0cf611d07497e2a2ad5a2cc8c0bbe51207b",
+      "hash": "0885c0f6be9d82e465ed2901aebf3d45b5cb27dc8af08632d66113bb0fccf608",
       "title": "RSE - TUNE - HappyModel Mobula 7 HD",
       "firmware_version": [
         "4.5"
