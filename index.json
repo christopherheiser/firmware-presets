@@ -152,7 +152,7 @@
   "presets": [
     {
       "fullPath": "presets/4.5/osd/osd.txt",
-      "hash": "b1a530565a67e574adb4b449001179a37b57f4b98a8c73b5426ce4a1a5f4c9d6",
+      "hash": "4e0809d5efa464a380b3ea07f9e6d1d88e87e1d2f9fd5a9f7b180a26780b9c3b",
       "title": "RSE - OSD",
       "firmware_version": [
         "4.5"
@@ -171,6 +171,23 @@
       "fullPath": "presets/4.5/other/avatar.txt",
       "hash": "89a9687316b50c20b38ae35480bc6c512c8f13e21b63f905dbdf45c59a476eb2",
       "title": "RSE - Avatar OSD",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "OTHER",
+      "status": "COMMUNITY",
+      "keywords": [
+        "RSE",
+        "hyperion",
+        "OSD"
+      ],
+      "author": "hyperion",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.5/other/o3.txt",
+      "hash": "6c4e702c9769f0439ca1a09ec78d5bc8cc942e00e2d90bda6538f88a78b235e4",
+      "title": "RSE - O3 OSD",
       "firmware_version": [
         "4.5"
       ],

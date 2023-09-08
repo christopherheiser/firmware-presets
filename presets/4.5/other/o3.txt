@@ -1,6 +1,6 @@
-#$ TITLE: RSE - OSD
+#$ TITLE: RSE - O3 OSD
 #$ FIRMWARE_VERSION: 4.5
-#$ CATEGORY: OSD
+#$ CATEGORY: OTHER
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: RSE, hyperion, OSD
 #$ AUTHOR: hyperion
@@ -9,28 +9,16 @@
 
 #$ DESCRIPTION:
 #$ DESCRIPTION: <img src="https://user-images.githubusercontent.com/19867640/174759844-ffd85f42-1f1c-42bf-9032-d9f96d4d9619.svg" width="90px" style="display: block; float: left; margin-right: 10px; margin-top: 20px"/>
-#$ DESCRIPTION: <h1>RSE OSD settings for BF 4.5</h1>
+#$ DESCRIPTION: <h1>O3 OSD for BF 4.5</h1>
 #$ DESCRIPTION: <br>
 #$ DESCRIPTION:
-#$ DESCRIPTION: These are the OSD settings for RSE drones running Betaflight 4.5
+#$ DESCRIPTION: These are the O3 OSD settings for RSE drones running Betaflight 4.5
 #$ DESCRIPTION:
 #$ DESCRIPTION: <br>
 #$ DESCRIPTION:
 
 #$ DISCUSSION: none
 
-# -- OSD Setup --
-set osd_displayport_device = MSP
-set vcd_video_system = HD
-
-# -- Base OSD Settings --
-set osd_rssi_dbm_pos = 3088
-
-#$ OPTION BEGIN (UNCHECKED): Avatar
-#$ INCLUDE: presets/4.5/other/avatar.txt
-#$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): O3
 # -- O3 OSD Settings --
 set osd_rssi_pos = 3122
 set osd_link_quality_pos = 6168
@@ -55,12 +43,5 @@ set osd_battery_usage_pos = 6740
 set osd_disarmed_pos = 6455
 set osd_flip_arrow_pos = 6490
 set osd_core_temp_pos = 2656
-#$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): DJI w/WTF.FPV
-# -- DJI Air Unit or Vista w/WTF.FPV --
-#$ OPTION END
-
 
 # -- Misc Settings --
-
