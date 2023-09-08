@@ -1,0 +1,25 @@
+#$ TITLE: RSE - DJI with WTF OSD
+#$ FIRMWARE_VERSION: 4.5
+#$ CATEGORY: OTHER
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: RSE, hyperion, OSD
+#$ AUTHOR: hyperion
+
+#$ PARSER: MARKED
+
+#$ DESCRIPTION:
+#$ DESCRIPTION: <img src="https://user-images.githubusercontent.com/19867640/174759844-ffd85f42-1f1c-42bf-9032-d9f96d4d9619.svg" width="90px" style="display: block; float: left; margin-right: 10px; margin-top: 20px"/>
+#$ DESCRIPTION: <h1>DJI with WTF OSD for BF 4.5</h1>
+#$ DESCRIPTION: <br>
+#$ DESCRIPTION:
+#$ DESCRIPTION: These are the DJI with WTF OSD settings for RSE drones running Betaflight 4.5
+#$ DESCRIPTION:
+#$ DESCRIPTION: <br>
+#$ DESCRIPTION:
+
+#$ DISCUSSION: none
+
+# -- DJI with WTF OSD Settings --
+
+
+# -- Misc Settings --
