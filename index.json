@@ -269,8 +269,8 @@
     },
     {
       "fullPath": "presets/4.5/tune/RSE - AOS 3.5 V2.txt",
-      "hash": "70013d74a9f54937360d18ac45b89f0710bd6caca4d93ec6c50320707635d3be",
-      "title": "RSE - TUNE - AOS 3.5",
+      "hash": "5d535cd85eccd68a21f7e091f5133bc151be1b758128d8c828033cb10bdb10c4",
+      "title": "RSE - TUNE - AOS 3.5 V2 O3",
       "firmware_version": [
         "4.5"
       ],
@@ -317,8 +317,8 @@
     },
     {
       "fullPath": "presets/4.5/tune/RSE - iFlight Nazgul Evoque F5 V2.txt",
-      "hash": "a57b8d81872a66a8547f41ffaa7bba7c4fd362afd55a060f9eac0b8b9cca2950",
-      "title": "RSE - TUNE - AOS 3.5",
+      "hash": "dc64d3a7fbc87fe78ceaa6e6e4ad5f7534b47cfc5f90a4e5a9632ab5ff68d610",
+      "title": "RSE - TUNE - iFlight Nazgul Evoke F5 V2",
       "firmware_version": [
         "4.5"
       ],
