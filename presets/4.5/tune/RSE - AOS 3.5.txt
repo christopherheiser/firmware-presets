@@ -59,7 +59,6 @@ set report_cell_voltage = ON
 
 # sensors and I/O
 set dyn_notch_count = 1
-set dyn_notch_q = 500
 set align_board_yaw = 215
 set acc_calibration = -37,0,76,1
 set small_angle = 180

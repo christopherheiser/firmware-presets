@@ -20,6 +20,7 @@
 #$ DISCUSSION: none
 
 # -- Avatar OSD Settings --
+set osd_rssi_dbm_pos = 3088
 set osd_link_quality_pos = 2072
 set osd_tim_2_pos = 3599
 set osd_flymode_pos = 2080

@@ -169,7 +169,7 @@
     },
     {
       "fullPath": "presets/4.5/other/avatar.txt",
-      "hash": "0908e3e85c50dc876dc5c08714000f499320c277294eda5984610c3e5d1024f1",
+      "hash": "77004ffb17d7ac9bf1e8e5d41cb65f95f68ce37f873443faee6545b7a42afcd8",
       "title": "RSE - INC - OSD - Avatar",
       "firmware_version": [
         "4.5"
@@ -203,7 +203,7 @@
     },
     {
       "fullPath": "presets/4.5/other/o3.txt",
-      "hash": "9938a14802a1c36613fe0e2d23cac564c0671b55c51f29aaaa0b9874db1692d2",
+      "hash": "de87824a4bb681e797c5202806f5aabf707bd43c5a75434917aceab5af92b96b",
       "title": "RSE - INC - OSD - O3",
       "firmware_version": [
         "4.5"
@@ -220,7 +220,7 @@
     },
     {
       "fullPath": "presets/4.5/other/osd_base.txt",
-      "hash": "50cf02de2ed21210a89b424d8324d01b5143d318ca71be29a488adb012d9d1f9",
+      "hash": "cfeed6541a302b9130f49a2fc7f393ec428069e737b1c1ea347de4b04f6b1221",
       "title": "RSE - INC - OSD - Base",
       "firmware_version": [
         "4.5"
@@ -269,7 +269,7 @@
     },
     {
       "fullPath": "presets/4.5/tune/RSE - AOS 3.5.txt",
-      "hash": "303109e797b1d1d6dd4b826ab5a3f064d32ab9107d153c72dba0934774f5fe5d",
+      "hash": "a57b8d81872a66a8547f41ffaa7bba7c4fd362afd55a060f9eac0b8b9cca2950",
       "title": "RSE - TUNE - AOS 3.5",
       "firmware_version": [
         "4.5"
