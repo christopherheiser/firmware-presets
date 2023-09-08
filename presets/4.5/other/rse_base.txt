@@ -75,3 +75,6 @@ rxrange 3 988 2011
 rxfail 5 s 1000					# Set 
 rxfail 7 s 1000					# Set 
 rxfail 15 s 1000				# Set RSSI/LQ to zero
+
+# -- Misc Settings --
+
