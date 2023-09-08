@@ -1,4 +1,4 @@
-#$ TITLE: RSE - Z - OSD - Avatar
+#$ TITLE: RSE - INC - OSD - Avatar
 #$ FIRMWARE_VERSION: 4.5
 #$ CATEGORY: OTHER
 #$ STATUS: COMMUNITY

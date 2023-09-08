@@ -1,4 +1,4 @@
-#$ TITLE: RSE - Rateprofiles
+#$ TITLE: RSE - INC - Rateprofiles
 #$ FIRMWARE_VERSION: 4.5
 #$ CATEGORY: OTHER
 #$ STATUS: COMMUNITY

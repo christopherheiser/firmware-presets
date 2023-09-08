@@ -169,8 +169,8 @@
     },
     {
       "fullPath": "presets/4.5/other/avatar.txt",
-      "hash": "0c0519f0be8f6cacaf83b617d069259509bc6b09c945a1e281dbeca6932576bf",
-      "title": "RSE - Z - OSD - Avatar",
+      "hash": "0908e3e85c50dc876dc5c08714000f499320c277294eda5984610c3e5d1024f1",
+      "title": "RSE - INC - OSD - Avatar",
       "firmware_version": [
         "4.5"
       ],
@@ -186,8 +186,8 @@
     },
     {
       "fullPath": "presets/4.5/other/dji_wtf.txt",
-      "hash": "7b8b1a7547150e1a4aea4e7159e61e4fcdad770e042faa95dbb757e49ba07c4c",
-      "title": "RSE - Z - OSD - DJI with WTF",
+      "hash": "3faf3064dae8c85d402e88b0f35c4f063dc433911083671043859f377a427ab8",
+      "title": "RSE - INC - OSD - DJI with WTF",
       "firmware_version": [
         "4.5"
       ],
@@ -203,8 +203,8 @@
     },
     {
       "fullPath": "presets/4.5/other/o3.txt",
-      "hash": "6c4e702c9769f0439ca1a09ec78d5bc8cc942e00e2d90bda6538f88a78b235e4",
-      "title": "RSE - O3 OSD",
+      "hash": "9938a14802a1c36613fe0e2d23cac564c0671b55c51f29aaaa0b9874db1692d2",
+      "title": "RSE - INC - OSD - O3",
       "firmware_version": [
         "4.5"
       ],
@@ -220,8 +220,8 @@
     },
     {
       "fullPath": "presets/4.5/other/osd_base.txt",
-      "hash": "6f20fdb9f19c6c44f7ddc5ad4ab6267eaef3b2aa4e7160f265d9cf72e95fd601",
-      "title": "RSE - OSD Base",
+      "hash": "50cf02de2ed21210a89b424d8324d01b5143d318ca71be29a488adb012d9d1f9",
+      "title": "RSE - INC - OSD - Base",
       "firmware_version": [
         "4.5"
       ],
@@ -237,8 +237,8 @@
     },
     {
       "fullPath": "presets/4.5/other/rateprofiles.txt",
-      "hash": "13dd75ae7cdec4aa3c84cfdca8a21dc600ad1b3aaa1682ddbc43b43c18dff4a5",
-      "title": "RSE - Rateprofiles",
+      "hash": "e67bafadd1d026e60907e916de72799ae253c51fcc632d5c34b4700c6938775a",
+      "title": "RSE - INC - Rateprofiles",
       "firmware_version": [
         "4.5"
       ],
@@ -253,8 +253,8 @@
     },
     {
       "fullPath": "presets/4.5/other/rse_base.txt",
-      "hash": "43ba8c29bbe448bdd7963510c7c54d32cc588bc6f184641b19e6bf6901fdb722",
-      "title": "RSE - OTHER - Base Settings",
+      "hash": "33ac99268347c86a6026e8b7e64ed48ccb61dd6a3ee0c2ef19754e7362c27af3",
+      "title": "RSE - INC - Base Settings",
       "firmware_version": [
         "4.5"
       ],
