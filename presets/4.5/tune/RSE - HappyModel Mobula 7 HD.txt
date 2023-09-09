@@ -77,6 +77,10 @@ set debug_mode = RX_EXPRESSLRS_SPI
 ### Base settings
 #$ INCLUDE: presets/4.5/other/rse_base.txt
 
+# Link Specific
+set rssi_channel = 15				# ELRS has LQ on 15 and dB on 16, CRSF on 12
+rxfail 15 s 1000				# Set RSSI/LQ to zero
+
 
 ### RC Link
 # Use ExpressLRS 250Hz preset with HD Freestyle, SPI RX, and singe cell voltage

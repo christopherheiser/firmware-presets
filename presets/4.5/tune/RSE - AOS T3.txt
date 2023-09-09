@@ -51,6 +51,7 @@ set motor_pwm_protocol = DSHOT600
 # power system
 set vbat_max_cell_voltage = 440
 set vbat_min_cell_voltage = 320
+set bat_capacity = 450
 set report_cell_voltage = ON
 
 # sensors and I/O
@@ -73,6 +74,10 @@ set blackbox_mode = NORMAL
 ### Base settings
 #$ INCLUDE: presets/4.5/other/rse_base.txt
 
+# Link Specific
+set rssi_channel = 15				# ELRS has LQ on 15 and dB on 16, CRSF on 12
+rxfail 15 s 1000				# Set RSSI/LQ to zero
+
 
 ### RC Link
 # Use ExpressLRS 250Hz preset with HD Freestyle, Serial RX, and singe cell voltage
@@ -88,34 +93,15 @@ set rc_smoothing_feedforward_cutoff = 25
 
 
 ### Profiles
-# Use UAV Tech Toothpick
+# Use FPVCycle Toothpick 3s | mouseFPV
 
 profile 0
 
 # profile 0
-set dterm_lpf1_dyn_min_hz = 90
-set dterm_lpf1_dyn_max_hz = 180
-set dterm_lpf2_static_hz = 180
-set iterm_relax = RPY
-set p_pitch = 51
-set i_pitch = 92
-set d_pitch = 52
-set f_pitch = 95
-set p_roll = 49
-set i_roll = 88
-set d_roll = 46
-set f_roll = 90
-set p_yaw = 49
-set i_yaw = 88
-set f_yaw = 90
-set d_min_roll = 34
-set d_min_pitch = 39
-set feedforward_transition = 21
-set simplified_pids_mode = OFF
-set simplified_d_gain = 115
-set simplified_pi_gain = 110
-set simplified_dterm_filter = OFF
-set simplified_dterm_filter_multiplier = 120
+set feedforward_averaging = 2_POINT
+set feedforward_smooth_factor = 45
+set feedforward_jitter_factor = 10
+set dyn_idle_min_rpm = 50
 
 # restore original profile selection
 profile 0

@@ -186,7 +186,7 @@
     },
     {
       "fullPath": "presets/4.5/other/dji_wtf.txt",
-      "hash": "46d5602d3f7eba298fa8e95e69da7f261d35b7b2ecb5158564055a8a82b4d727",
+      "hash": "e24f84a16c4dcde20d3025a4c530587cfb0770615fb54673049902592cefb4bb",
       "title": "RSE - INC - OSD - DJI with WTF",
       "firmware_version": [
         "4.5"
@@ -253,7 +253,7 @@
     },
     {
       "fullPath": "presets/4.5/other/rse_base.txt",
-      "hash": "33ac99268347c86a6026e8b7e64ed48ccb61dd6a3ee0c2ef19754e7362c27af3",
+      "hash": "2dd571a0d1d86ed506786f1b6fbde3dd0f3b2bbcd6c63b7f34d60150ee368a6a",
       "title": "RSE - INC - Base Settings",
       "firmware_version": [
         "4.5"
@@ -269,7 +269,7 @@
     },
     {
       "fullPath": "presets/4.5/tune/RSE - AOS 3.5 V2.txt",
-      "hash": "5d535cd85eccd68a21f7e091f5133bc151be1b758128d8c828033cb10bdb10c4",
+      "hash": "06cfed865a50a6e349880612b194294b1177ef412980bad01f1576ba6ab0fdbb",
       "title": "RSE - TUNE - AOS 3.5 V2 O3",
       "firmware_version": [
         "4.5"
@@ -285,7 +285,7 @@
     },
     {
       "fullPath": "presets/4.5/tune/RSE - AOS T3.txt",
-      "hash": "4b25664eb497867593970dd7de53ec9d18203bd35f7b1927a94f6989af151661",
+      "hash": "c1e1fd70986d8eba09b728f76dd58a3f8c647a494688e9a25f2cd2b939af0487",
       "title": "RSE - TUNE - AOS T3",
       "firmware_version": [
         "4.5"
@@ -300,8 +300,24 @@
       "priority": 1000000000000
     },
     {
+      "fullPath": "presets/4.5/tune/RSE - Emax Babyhawk II HD.txt",
+      "hash": "84091c162834a3c3a03a8a6c7880fe7669f1b580043a2d28f8d52964c56ebad7",
+      "title": "RSE - TUNE - Emax Babyhawk II HD",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "RSE",
+        "hyperion"
+      ],
+      "author": "hyperion",
+      "priority": 1000000000000
+    },
+    {
       "fullPath": "presets/4.5/tune/RSE - HappyModel Mobula 7 HD.txt",
-      "hash": "68cedc1f18420952b835f43a6d7eecbddd7944b8ebfc3470c5b2fca0fec1d803",
+      "hash": "4347df73c41929161818b7264f118f808baefc2910fe39abcf1460eb9879940c",
       "title": "RSE - TUNE - HappyModel Mobula 7 HD",
       "firmware_version": [
         "4.5"
