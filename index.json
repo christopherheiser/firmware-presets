@@ -300,9 +300,57 @@
       "priority": 1000000000000
     },
     {
+      "fullPath": "presets/4.5/tune/RSE - CMW DeMerica 10.txt",
+      "hash": "5936d1944f3813d259c94f9904232bdcdbcae1c2cff3e4324ffa7d4a6f2f6a9b",
+      "title": "RSE - TUNE - CMW DeMerica 10",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "RSE",
+        "hyperion"
+      ],
+      "author": "hyperion",
+      "priority": 1000000000000
+    },
+    {
+      "fullPath": "presets/4.5/tune/RSE - Diatone Roma F5 V2.txt",
+      "hash": "a8f615c420e04418c45e067b3e80d41dff5d28a961ef91cdab6c24b234649a6d",
+      "title": "RSE - TUNE - Diatone Roma F5 V2",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "RSE",
+        "hyperion"
+      ],
+      "author": "hyperion",
+      "priority": 1000000000000
+    },
+    {
       "fullPath": "presets/4.5/tune/RSE - Emax Babyhawk II HD.txt",
       "hash": "fdb63e37c1662230d82b0e0b1fd07bb71ed62123a23ed0ecc1e31b3715f6c800",
       "title": "RSE - TUNE - Emax Babyhawk II HD",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "RSE",
+        "hyperion"
+      ],
+      "author": "hyperion",
+      "priority": 1000000000000
+    },
+    {
+      "fullPath": "presets/4.5/tune/RSE - FR8.txt",
+      "hash": "90a0c77b828be87d670422adc334f476210d7cdd3d015063e5ee8351a86d2c89",
+      "title": "RSE - TUNE - FR8",
       "firmware_version": [
         "4.5"
       ],
@@ -333,7 +381,7 @@
     },
     {
       "fullPath": "presets/4.5/tune/RSE - iFlight Nazgul Evoque F5 V2.txt",
-      "hash": "dc64d3a7fbc87fe78ceaa6e6e4ad5f7534b47cfc5f90a4e5a9632ab5ff68d610",
+      "hash": "1a24018e2db3da71e2fe402a26939debe77c6861b6db517bdd61ac4966fc7e08",
       "title": "RSE - TUNE - iFlight Nazgul Evoke F5 V2",
       "firmware_version": [
         "4.5"
