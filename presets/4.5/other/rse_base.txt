@@ -71,16 +71,18 @@ rxfail 15 s 1000				# Set RSSI/LQ to zero
 #$ OPTION_GROUP END
 
 # aux channel mapping
-aux 0 0 0 1700 2100 0 0				# ARM, AUX 1 ON
-aux 1 1 3 900 1300 0 0				# ANGLE, AUX 4 ON
-aux 2 2 3 1300 1700 0 0				# HORIZON, AUX 4 NULL
-aux 3 13 1 1300 1700 0 0			# BEEPER, AUX 2 MID
-aux 4 26 5 1700 2100 0 0			# BLACKBOX, AUX 6 ON
-aux 5 31 8 1700 2100 0 0			# BLACKBOX ERASE, AUX 9 ON
-aux 6 35 1 1700 2100 0 0			# TURTLE MODE, AUX 2 LOW
-aux 7 36 1 900 1300 0 0				# PREARM, AUX 2 LOW
-aux 8 36 1 1700 2100 0 0			# PREARM, AUX 2 HIGH
-aux 9 41 4 1700 2100 0 0			# USER 2 (CAM TOGGLE), AUX 5 ON
+# number | feature | AUX Ch | low | high 
+aux 0 0 0 1700 2100 0 0				# ARM, AUX 1 HIGH
+aux 1 1 3 900 1300 0 0				# ANGLE, AUX 4 LOW (Acro is implied here at high)
+aux 2 2 3 1300 1700 0 0				# HORIZON, AUX 4 MID
+aux 3 46 4 1700 2100 0 0			# GPS RESCUE, AUX 5 HIGH (Overloaded with Camera Toggle)
+aux 4 13 1 1300 1700 0 0			# BEEPER, AUX 2 MID
+aux 5 26 5 1700 2100 0 0			# BLACKBOX (On/Off), AUX 6 ON (latching switch)
+aux 6 31 8 1700 2100 0 0			# BLACKBOX ERASE, AUX 9 ON
+aux 7 35 1 1700 2100 0 0			# FLIP OVER AFTER CRASH (Turtle mode), AUX 2 LOW
+aux 8 36 1 900 1300 0 0				# PREARM, AUX 2 LOW (in Turtle mode)
+aux 9 36 1 1700 2100 0 0			# PREARM, AUX 2 HIGH (primary Prearm setting)
+aux 10 41 4 1700 2100 0 0			# USER 2 (Camera Toggle), AUX 5 HIGH (latching switch)
 
 # adjustments
 adjrange 0 0 2 900 2100 12 2 0 0		# Rateprofile selection
