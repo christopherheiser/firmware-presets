@@ -91,6 +91,9 @@ rxrange 1 988 2011
 rxrange 2 988 2011
 rxrange 3 988 2011
 
+# arm angle limit off
+set small_angle = 180
+
 
 # -- Misc Settings --
 

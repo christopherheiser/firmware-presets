@@ -253,7 +253,7 @@
     },
     {
       "fullPath": "presets/4.5/other/rse_base.txt",
-      "hash": "2dd571a0d1d86ed506786f1b6fbde3dd0f3b2bbcd6c63b7f34d60150ee368a6a",
+      "hash": "e7073fb6d167a6b97bd959f1f08a1b15c66ed7eec46a87493c7e1cd94dc5391d",
       "title": "RSE - INC - Base Settings",
       "firmware_version": [
         "4.5"
@@ -301,7 +301,7 @@
     },
     {
       "fullPath": "presets/4.5/tune/RSE - Emax Babyhawk II HD.txt",
-      "hash": "84091c162834a3c3a03a8a6c7880fe7669f1b580043a2d28f8d52964c56ebad7",
+      "hash": "fdb63e37c1662230d82b0e0b1fd07bb71ed62123a23ed0ecc1e31b3715f6c800",
       "title": "RSE - TUNE - Emax Babyhawk II HD",
       "firmware_version": [
         "4.5"

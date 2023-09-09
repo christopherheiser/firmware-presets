@@ -43,11 +43,6 @@ serial 1 1 115200 57600 0 115200		# DJI OSD on UART2
 serial 2 128 115200 57600 0 2000000		# OpenLager on UART3
 serial 3 64 115200 57600 0 115200		# ELRS RX on UART4
 
-# WTF
-set osd_displayport_device = MSP
-set displayport_msp_serial = 1
-set vcd_video_system = PAL
-
 # motors
 set motor_poles = 12
 set motor_output_reordering = 3,2,1,0,4,5,6,7
@@ -63,7 +58,7 @@ set vbat_max_cell_voltage = 440
 set vbat_min_cell_voltage = 320
 set vbat_warning_cell_voltage = 340
 set vbat_scale = 111
-set ibata_scale = 85
+set ibata_scale = 176
 set report_cell_voltage = ON
 
 # sensors and I/O
