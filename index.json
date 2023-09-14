@@ -269,7 +269,7 @@
     },
     {
       "fullPath": "presets/4.5/tune/RSE - AOS 3.5 V2.txt",
-      "hash": "de5eb63db20c8237d63ea29505b1531b16cd0ae15224a004accacd3a6783f1e6",
+      "hash": "c73f8bdc83af7b65d413449f512729854848ced7776e4b693be7ef44f8cc7dcb",
       "title": "RSE - TUNE - AOS 3.5 V2 O3",
       "firmware_version": [
         "4.5"
@@ -365,7 +365,7 @@
     },
     {
       "fullPath": "presets/4.5/tune/RSE - HappyModel Mobula 7 HD.txt",
-      "hash": "4347df73c41929161818b7264f118f808baefc2910fe39abcf1460eb9879940c",
+      "hash": "eb65ce884790347260fee3bbdc726e2b1b6f26c841b205ccada75bdb66786891",
       "title": "RSE - TUNE - HappyModel Mobula 7 HD",
       "firmware_version": [
         "4.5"

@@ -89,6 +89,8 @@ rxfail 15 s 1000				# Set RSSI/LQ to zero
 ### Tune
 
 # master
+
+#$ OPTION BEGIN (CHECKED): Master Defaults
 set gyro_lpf1_static_hz = 300
 set gyro_lpf2_static_hz = 600
 set dyn_notch_count = 1
@@ -102,6 +104,7 @@ set simplified_gyro_filter_multiplier = 120
 set gyro_1_sensor_align = CW0FLIP
 set gyro_1_align_pitch = 1800
 set gyro_1_align_yaw = 0
+#$ OPTION END
 
 
 ### Profiles
@@ -109,6 +112,8 @@ set gyro_1_align_yaw = 0
 profile 0
 
 # profile 0
+
+#$ OPTION BEGIN (CHECKED): Profile Defaults
 set dterm_lpf1_dyn_min_hz = 90
 set dterm_lpf1_dyn_max_hz = 180
 set dterm_lpf2_static_hz = 180
@@ -132,6 +137,7 @@ set simplified_d_gain = 115
 set simplified_pi_gain = 110
 set simplified_dterm_filter = OFF
 set simplified_dterm_filter_multiplier = 120
+#$ OPTION END
 
 # restore original profile selection
 profile 0

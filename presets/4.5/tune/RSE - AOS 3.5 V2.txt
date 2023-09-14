@@ -121,7 +121,6 @@ profile 0
 
 # profile 0
 
-
 #$ OPTION BEGIN (CHECKED): Profile Defaults
 set dterm_lpf1_dyn_min_hz = 90
 set dterm_lpf1_dyn_max_hz = 180
