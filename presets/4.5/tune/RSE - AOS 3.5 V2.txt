@@ -96,6 +96,8 @@ rxfail 15 s 1000				# Set RSSI/LQ to zero
 # UAV Micro preset with Master Multiplier set at 1.0
 
 # master
+
+#$ OPTION BEGIN (CHECKED): Master Defaults
 set gyro_lpf1_static_hz = 0
 set gyro_lpf2_static_hz = 0
 set dyn_notch_count = 2
@@ -109,6 +111,7 @@ set rc_smoothing_setpoint_cutoff = 25
 set rc_smoothing_feedforward_cutoff = 25
 set simplified_gyro_filter = OFF
 set rpm_filter_harmonics = 2
+#$ OPTION END
 
 
 ### Profiles
@@ -117,6 +120,9 @@ set rpm_filter_harmonics = 2
 profile 0
 
 # profile 0
+
+
+#$ OPTION BEGIN (CHECKED): Profile Defaults
 set dterm_lpf1_dyn_min_hz = 90
 set dterm_lpf1_dyn_max_hz = 180
 set dterm_lpf1_static_hz = 90
@@ -136,6 +142,7 @@ set dyn_idle_min_rpm = 35
 set simplified_d_gain = 90
 set simplified_dmax_gain = 0
 set simplified_dterm_filter_multiplier = 120
+#$ OPTION END
 
 # restore original profile selection
 profile 0
