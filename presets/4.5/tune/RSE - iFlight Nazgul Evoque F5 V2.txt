@@ -106,6 +106,8 @@ set blackbox_mode = NORMAL		#
 ### Tune
 
 # master
+
+#$ OPTION BEGIN (CHECKED): Profile Defaults fron iFlight
 # Default settings from iFlight
 set gyro_lpf1_static_hz = 0
 set gyro_lpf2_static_hz = 0
@@ -114,6 +116,7 @@ set dyn_notch_q = 500
 set dyn_notch_min_hz = 120
 set gyro_lpf1_dyn_min_hz = 0
 set rpm_filter_fade_range_hz = 80
+#$ OPTION END
 
 
 ### Profiles
@@ -121,6 +124,8 @@ set rpm_filter_fade_range_hz = 80
 profile 0
 
 # profile 0
+
+#$ OPTION BEGIN (CHECKED): Profile Defaults fron iFlight
 # Default settings from iFlight
 set dterm_lpf1_dyn_expo = 7
 set dterm_lpf1_static_hz = 0
@@ -149,6 +154,7 @@ set simplified_dmax_gain = 40
 set simplified_feedforward_gain = 70
 set tpa_rate = 50
 set tpa_breakpoint = 1280
+#$ OPTION END
 
 # restore original profile selection
 profile 0

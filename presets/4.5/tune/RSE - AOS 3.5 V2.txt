@@ -93,7 +93,7 @@ rxfail 15 s 1000				# Set RSSI/LQ to zero
 
 
 ### Tune
-# UAV Micro preset with Master Multiplier set at 1.0
+# Use UAV Micro preset with Master Multiplier set at 1.0
 
 # master
 
@@ -115,7 +115,7 @@ set rpm_filter_harmonics = 2
 
 
 ### Profiles
-# UAV Micro preset with Master Multiplier set at 1.0
+# Use UAV Micro preset with Master Multiplier set at 1.0
 
 profile 0
 
