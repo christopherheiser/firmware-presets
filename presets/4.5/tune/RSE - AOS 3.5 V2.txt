@@ -39,6 +39,7 @@ feature OSD
 serial 0 64 115200 57600 0 115200		# ELRS RX on UART1
 serial 1 131073 115200 57600 0 115200		# DJI O3 w/MSP on UART2
 serial 4 2 115200 115200 0 115200		# GPS
+set serialrx_inverted = OFF			# to make LQ and RSSI work properly
 
 # motors
 set motor_poles = 12
@@ -84,7 +85,7 @@ set blackbox_mode = NORMAL		#
 #$ INCLUDE: presets/4.5/other/rse_base.txt
 
 # Link Specific
-set rssi_channel = 15				# ELRS has LQ on 15 and dB on 16, CRSF on 12
+#set rssi_channel = 15				# ELRS has LQ on 15 and dB on 16, CRSF on 12
 rxfail 15 s 1000				# Set RSSI/LQ to zero
 
 
